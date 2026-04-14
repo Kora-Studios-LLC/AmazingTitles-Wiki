@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazingTitles Wiki</title>
+    <meta name="description" content="AmazingTitles static HTML wiki for Spigot and Paper documentation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/wiki.css">
+    <script src="assets/wiki-data.js" defer></script>
+    <script src="assets/wiki.js" defer></script>
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar" id="sidebar">
+            <div class="brand">
+                <div class="brand-mark">AT</div>
+                <div>
+                    <p class="eyebrow">Documentation</p>
+                    <h1>AmazingTitles</h1>
+                </div>
+            </div>
+
+            <div class="search-wrap">
+                <label class="search-label" for="search-input">Search the wiki</label>
+                <input id="search-input" class="search-input" type="search" placeholder="Find pages, commands, animations...">
+                <div id="search-results" class="search-results" hidden></div>
+            </div>
+
+            <nav id="sidebar-nav" class="sidebar-nav" aria-label="Wiki navigation"></nav>
+
+            <div class="sidebar-footer">
+                <a href="https://github.com/Kora-Studios-LLC/AmazingTitles/releases" target="_blank" rel="noreferrer">GitHub Releases</a>
+                <a href="https://discord.com/invite/Ms7uAAAtcT" target="_blank" rel="noreferrer">Discord</a>
+            </div>
+        </aside>
+
+        <div class="main-column">
+            <header class="topbar">
+                <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="topbar-meta">
+                    <div id="breadcrumbs" class="breadcrumbs"></div>
+                    <div class="meta-chips">
+                        <span class="chip chip-accent">6.0-SNAPSHOT</span>
+                    </div>
+                </div>
+            </header>
+
+            <main class="content-shell">
+                <section class="article-panel">
+                    <div class="article-header">
+                        <p id="page-kicker" class="page-kicker"></p>
+                        <h2 id="page-title" class="page-title">Loading...</h2>
+                        <p id="page-excerpt" class="page-excerpt"></p>
+                    </div>
+
+                    <article id="article-content" class="article-content"></article>
+
+                    <footer class="article-footer">
+                        <div id="prev-next" class="prev-next"></div>
+                    </footer>
+                </section>
+
+                <aside class="toc-panel">
+                    <div class="toc-inner">
+                        <p class="toc-label">On this page</p>
+                        <nav id="toc-nav" class="toc-nav" aria-label="Table of contents"></nav>
+                    </div>
+                </aside>
+            </main>
+        </div>
+    </div>
+</body>
+</html>

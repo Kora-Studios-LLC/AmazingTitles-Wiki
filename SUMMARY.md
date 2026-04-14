@@ -1,0 +1,42 @@
+# AmazingTitles Wiki
+
+- [Home](Home.md)
+- [Welcome](README.md)
+- Documentation
+  - [Overview](documentation/README.md)
+  - [Quickstart](documentation/getting-started.md)
+  - [Installation and Setup](documentation/installation-and-setup.md)
+  - [Plugin Details](plugin-details.md)
+  - [Plugin Functions](functions/plugin-functions.md)
+  - [Sending Animations](functions/sending-animations.md)
+  - [Sending Notifications](functions/sending-notifications.md)
+  - [Sending Interactive Messages](functions/sending-interactive-messages.md)
+  - [HEX and Gradient Colors](functions/hex-and-gradient-colors.md)
+  - [Extensions and Integrations](documentation/extensions-and-integrations.md)
+- Animations
+  - [NONE](animations/none.md)
+  - [PULSING](animations/pulsing.md)
+  - [RAINBOW](animations/rainbow.md)
+  - [SPLIT](animations/split.md)
+  - [WAVES](animations/waves.md)
+  - [WORDS_SPLIT](animations/words-split.md)
+  - [BOUNCE](animations/bounce.md)
+  - [FADE_IN](animations/fade-in.md)
+  - [FADE_IN_WRITER](animations/fade-in-writer.md)
+  - [FLASHING](animations/flashing.md)
+  - [FLASHING_SYMBOL_WRAP](animations/flashing-symbol-wrap.md)
+  - [FROM_BOTH_SIDES](animations/from-both-sides.md)
+  - [FROM_RIGHT](animations/from-right.md)
+  - [FROM_LEFT](animations/from-left.md)
+- API Reference
+  - [Overview](api-reference/README.md)
+  - [Creating AmazingExtension](api/creating-amazingextension.md)
+  - [Creating Custom Animations](api/creating-custom-animations.md)
+  - [Creating Custom SubCommand](api/creating-custom-subcommand.md)
+  - [Other API Stuff](api/other-api-stuff.md)
+- Integrations
+  - [CMI Integration](integrations/cmi-integration.md)
+- Extensions
+  - [Overview](extensions/overview.md)
+- [Changelog](changelog.md)
+- [Help Center](help-center.md)
